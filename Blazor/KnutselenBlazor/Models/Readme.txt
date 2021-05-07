@@ -1,0 +1,2 @@
+Represent the model data handled by the Blazor application and transferred between components and services, 
+including data received in api responses and sent in requests. Form validation is implemented in models with data annotation attributes (e.g. [Required]).

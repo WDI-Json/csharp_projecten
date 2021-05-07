@@ -1,0 +1,2 @@
+The Blazor project "web root" folder that contains static files including the root index.html file or host page (/wwwroot/index.html), css stylesheets, images and app settings (/wwwroot/appsettings.json). 
+Everything in the wwwroot folder is publicly accessible via a web request so make sure you only include static files that should be public.

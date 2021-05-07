@@ -1,0 +1,2 @@
+Contain the core logic for the application and handles most of the heavy lifting so page components can be kept as lean and simple as possible. 
+The services layer encapsulates all http communication with backend apis and interaction with local storage, and exposes a simple set of interfaces for the rest of the app to use.

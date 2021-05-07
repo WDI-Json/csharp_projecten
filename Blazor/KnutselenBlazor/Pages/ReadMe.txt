@@ -1,0 +1,2 @@
+ASP.NET Core Razor components that contain the pages for the Blazor application. 
+Each component specifies which route it is bound to with a @page directive at the top of the file (e.g. @page "/account/login" in the login component).

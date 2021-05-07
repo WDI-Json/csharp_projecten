@@ -1,0 +1,1 @@
+ASP.NET Core Razor components that can be used in multiple areas of the application and are not bound to a specific route.
