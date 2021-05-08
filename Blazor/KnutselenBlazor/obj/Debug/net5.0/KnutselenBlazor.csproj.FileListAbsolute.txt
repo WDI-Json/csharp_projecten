@@ -648,7 +648,7 @@ C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Deb
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\KnutselenBlazor.dll
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\ref\KnutselenBlazor.dll
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\KnutselenBlazor.pdb
-C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\Counter.razor.g.cs
-C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\Counter.razor.g.cs
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\Layout.razor.g.cs
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\Layout.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\LandingspaginaDemo.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\LandingspaginaDemo.razor.g.cs
