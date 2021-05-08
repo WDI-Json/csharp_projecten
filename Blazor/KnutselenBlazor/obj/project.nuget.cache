@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cvcWqk4CHFPfRfbiwLjyKEDdDKevrqQ+/9KXxHrD0Ly9BNOSLCRkhfITzbyrxweczZ7mBrwgeQOdrUtlHpdgzA==",
+  "dgSpecHash": "7F7Xtioh61ijKa9jcH1ncE84tt8Ye519kdbvGmnevpfzuTp9UUSvAgcqlUbzvVbzRbIb/4fhP88axHpl0LaVFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wouter\\Desktop\\knutsel\\KnutselenBlazor\\KnutselenBlazor.csproj",
+  "projectFilePath": "C:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\KnutselenBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wouter\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.5\\microsoft.aspnetcore.authorization.5.0.5.nupkg.sha512",
     "C:\\Users\\Wouter\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.5\\microsoft.aspnetcore.components.5.0.5.nupkg.sha512",

@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor
+namespace KnutselenBlazor.Pages.Demopagina
 {
     #line hidden
     using System;
@@ -89,10 +89,11 @@ using System.Web;
 #line default
 #line hidden
 #nullable disable
-    public partial class _Imports : System.Object
+    [Microsoft.AspNetCore.Components.LayoutAttribute(typeof(MainLayout))]
+    public partial class Layout : LayoutComponentBase
     {
         #pragma warning disable 1998
-        protected void Execute()
+        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998

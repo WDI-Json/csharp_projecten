@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

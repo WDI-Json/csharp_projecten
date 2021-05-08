@@ -1,0 +1,18 @@
+@page "/Demopagina"
+
+<h1>Teller</h1>
+  <p>De huidige waarde is: @currentCount</p>
+  <button class="btn btn-primary" @onclick=IncrementCounter>Optellen</button>
+  <button class="btn btn-primary" @onclick=ResetToZero>Reset</button>
+
+@code {
+  private int currentCount = 42;
+  private void IncrementCounter()
+  {
+    currentCount++;
+  }
+    private void ResetToZero()
+  {
+    currentCount = 0;
+  }
+}

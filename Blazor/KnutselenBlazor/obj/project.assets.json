@@ -1151,11 +1151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wouter\\Desktop\\knutsel\\KnutselenBlazor\\KnutselenBlazor.csproj",
+      "projectUniqueName": "C:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\KnutselenBlazor.csproj",
       "projectName": "KnutselenBlazor",
-      "projectPath": "C:\\Users\\Wouter\\Desktop\\knutsel\\KnutselenBlazor\\KnutselenBlazor.csproj",
+      "projectPath": "C:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\KnutselenBlazor.csproj",
       "packagesPath": "C:\\Users\\Wouter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wouter\\Desktop\\knutsel\\KnutselenBlazor\\obj\\",
+      "outputPath": "C:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio SDK's\\NuGetPackages"

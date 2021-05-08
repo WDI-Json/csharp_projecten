@@ -70,7 +70,7 @@ namespace KnutselenBlazor.Helpers
                 var user = users.FirstOrDefault(x => x.Username == body.Username && x.Password == body.Password);
 
                 if (user == null)
-                    return await error("Username or password is incorrect");
+                    return await error("Gebruikersnaam of wachtwoord is incorrect");
 
                 return await ok(new {
                     Id = user.Id.ToString(),
@@ -87,7 +87,7 @@ namespace KnutselenBlazor.Helpers
                 var body = JsonSerializer.Deserialize<AddUser>(bodyJson);
 
                 if (users.Any(x => x.Username == body.Username))
-                    return await error($"Username '{body.Username}' is already taken");
+                    return await error($"Gebruikersnaam '{body.Username}' is al in gebruik");
 
                 var user = new UserRecord {
                     Id = users.Count > 0 ? users.Max(x => x.Id) + 1 : 1,
@@ -128,7 +128,7 @@ namespace KnutselenBlazor.Helpers
 
                 // if username changed check it isn't already taken
                 if (user.Username != body.Username && users.Any(x => x.Username == body.Username))
-                    return await error($"Username '{body.Username}' is already taken");
+                    return await error($"Gebruikersnaam '{body.Username}' is al in gebruik");
 
                 // only update password if entered
                 if (!string.IsNullOrWhiteSpace(body.Password))
@@ -167,7 +167,7 @@ namespace KnutselenBlazor.Helpers
 
             async Task<HttpResponseMessage> unauthorized()
             {
-                return await jsonResponse(HttpStatusCode.Unauthorized, new { message = "Unauthorized" });
+                return await jsonResponse(HttpStatusCode.Unauthorized, new { message = "Niet geautoriseerd" });
             }
 
             async Task<HttpResponseMessage> jsonResponse(HttpStatusCode statusCode, object content)

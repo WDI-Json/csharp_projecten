@@ -13,77 +13,77 @@ namespace KnutselenBlazor.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 1 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 2 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor.Helpers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 3 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 4 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor.Models.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 5 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 6 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using KnutselenBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 7 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 8 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 9 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 10 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\_Imports.razor"
+#line 11 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using System.Web;
 
 #line default
@@ -97,7 +97,7 @@ using System.Web;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "C:\Users\Wouter\Desktop\knutsel\KnutselenBlazor\Shared\MainLayout.razor"
+#line 23 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\MainLayout.razor"
        
     public bool LoggedIn 
     {

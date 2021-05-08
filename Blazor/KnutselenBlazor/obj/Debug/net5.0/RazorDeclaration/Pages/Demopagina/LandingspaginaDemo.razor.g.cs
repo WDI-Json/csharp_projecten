@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor
+namespace KnutselenBlazor.Pages.Demopagina
 {
     #line hidden
     using System;
@@ -89,13 +89,30 @@ using System.Web;
 #line default
 #line hidden
 #nullable disable
-    public partial class _Imports : System.Object
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina")]
+    public partial class LandingspaginaDemo : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected void Execute()
+        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 8 "c:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Pages\Demopagina\LandingspaginaDemo.razor"
+       
+  private int currentCount = 42;
+  private void IncrementCounter()
+  {
+    currentCount++;
+  }
+    private void ResetToZero()
+  {
+    currentCount = 0;
+  }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
