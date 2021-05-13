@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor.Pages.Demopagina
+namespace KnutselenBlazor.Shared
 {
     #line hidden
     using System;
@@ -89,14 +89,38 @@ using System.Web;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina")]
-    public partial class LandingspaginaDemo : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Dropdown<TItem> : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 15 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\Dropdown.razor"
+       
+    [Parameter]
+    public RenderFragment InitialTip{get;set;}
+    [Parameter]
+    public RenderFragment ChildContent{get;set;}
+    [Parameter]
+    public EventCallback<TItem> OnSelected {get;set;}
+
+    private bool show = false;
+    private RenderFragment Tip ;
+
+    protected override void OnInitialized(){ this.Tip = InitialTip; }
+    public async Task HandleSelect(TItem item, RenderFragment<TItem> contentFragment)
+    {
+        this.Tip= contentFragment.Invoke(item);
+        this.show=false;
+        StateHasChanged();
+        await this.OnSelected.InvokeAsync(item);
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -97,11 +97,15 @@ using System.Web;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 34 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\MainLayout.razor"
+#line 40 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\MainLayout.razor"
        
-    public bool LoggedIn 
+    public bool LoggedIn
     {
         get { return AccountService.User != null; }
+    }
+    private void OnSelected(string selection)
+    {
+        Console.WriteLine(selection);
     }
 
 #line default

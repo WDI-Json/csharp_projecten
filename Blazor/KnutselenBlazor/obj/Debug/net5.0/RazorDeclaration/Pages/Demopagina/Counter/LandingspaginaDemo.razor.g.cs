@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor.Pages.Demopagina
+namespace KnutselenBlazor.Pages.Demopagina.Counter
 {
     #line hidden
     using System;
@@ -89,7 +89,7 @@ using System.Web;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina/counter")]
     public partial class LandingspaginaDemo : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -97,6 +97,22 @@ using System.Web;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 8 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Pages\Demopagina\Counter\LandingspaginaDemo.razor"
+       
+  private int currentCount = 42;
+  private void IncrementCounter()
+  {
+    currentCount++;
+  }
+    private void ResetToZero()
+  {
+    currentCount = 0;
+  }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

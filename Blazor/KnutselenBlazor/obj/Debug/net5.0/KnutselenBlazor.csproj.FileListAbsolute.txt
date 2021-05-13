@@ -652,3 +652,11 @@ C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Deb
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\Layout.razor.g.cs
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\LandingspaginaDemo.razor.g.cs
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\LandingspaginaDemo.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\Counter\LandingspaginaDemo.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Demopagina\Counter\Layout.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\Counter\LandingspaginaDemo.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Pages\Demopagina\Counter\Layout.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\Dropdown.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\DropdownListItem.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Shared\Dropdown.razor.g.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\obj\Debug\net5.0\Razor\Shared\DropdownListItem.razor.g.cs

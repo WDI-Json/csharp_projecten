@@ -9,15 +9,21 @@
         <ul class="navbar-nav">
             <NavLink href="" Match="NavLinkMatch.All" class="nav-item nav-link">Home</NavLink>
             <NavLink href="users" class="nav-item nav-link">Gebruikers</NavLink>
-                <!-- Dropdown werkt nog niet. wel zichtbaar-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
-                    Demo's
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="Demopagina">Link 1</a>
-                    </div>
-                </li>
+            <!-- Dropdown werkt nog niet. wel zichtbaar-->
+            @{
+                var list = new List<string> { "Counter", "demo2", "demo3" }; }
+            <Dropdown TItem="string" OnSelected="@OnSelected">
+                <InitialTip>Demo's</InitialTip>
+                <ChildContent>
+                    <NavLink href="Demopagina/Counter" class="nav-item nav-link">Demo's
+                        <DropdownListItem Item="@list[0]">Counter</DropdownListItem>
+                    </NavLink>
+                    <div class="dropdown-divider"></div>
+                    <DropdownListItem Item="@list[1]">demo2</DropdownListItem>
+                    <div class="dropdown-divider"></div>
+                    <DropdownListItem Item="@list[2]">demo3</DropdownListItem>
+                </ChildContent>
+            </Dropdown>
             @* <NavLink href="Demopagina" class="nav-item nav-link">Demo's</NavLink> *@
 
 
@@ -32,8 +38,12 @@
 </div>
 
 @code {
-    public bool LoggedIn 
+    public bool LoggedIn
     {
         get { return AccountService.User != null; }
+    }
+    private void OnSelected(string selection)
+    {
+        Console.WriteLine(selection);
     }
 }

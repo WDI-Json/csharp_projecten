@@ -81,630 +81,35 @@
         }
       },
       {
-        "HashCode": -388953973,
+        "HashCode": 98173566,
         "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.SurveyPrompt",
+        "Name": "KnutselenBlazor.Pages.Account.Logout",
         "AssemblyName": "KnutselenBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Logout"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.SurveyPrompt"
+          "Common.TypeName": "KnutselenBlazor.Pages.Account.Logout"
         }
       },
       {
-        "HashCode": -1586800825,
+        "HashCode": 2146381765,
         "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.SurveyPrompt",
+        "Name": "KnutselenBlazor.Pages.Account.Logout",
         "AssemblyName": "KnutselenBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "KnutselenBlazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "KnutselenBlazor.Pages.Account.Logout"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1517746105,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.NavMenu",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1939536083,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.NavMenu",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -346331491,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.MainLayout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": -803334727,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.MainLayout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1372981926,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Shared.MainLayout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": 473232584,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Shared.MainLayout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "KnutselenBlazor.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1478405425,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.Alert",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Alert"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Fade",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "Fade"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.Alert"
-        }
-      },
-      {
-        "HashCode": 1032858660,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Shared.Alert",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Shared.Alert"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Fade",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "Fade"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Shared.Alert",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -272285759,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.App",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.App"
-        }
-      },
-      {
-        "HashCode": 1932235702,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.App",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 393463156,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Edit",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Edit"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Edit"
-        }
-      },
-      {
-        "HashCode": -1585071326,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Edit",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Users.Edit"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Edit",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2005183287,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Add",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Add"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Add"
-        }
-      },
-      {
-        "HashCode": -1511144634,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Add",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Users.Add"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Add",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1773609112,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Index",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Index"
-        }
-      },
-      {
-        "HashCode": 2001639195,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Index",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Users.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1207997785,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Layout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Layout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout"
-        }
-      },
-      {
-        "HashCode": -20896798,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Users.Layout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Users.Layout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -626710750,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Pages.Users.Layout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "Layout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": 1470018753,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Pages.Users.Layout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "KnutselenBlazor.Pages.Users.Layout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1952957145,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LandingspaginaDemo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo"
-        }
-      },
-      {
-        "HashCode": 1989393401,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 415126388,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Demopagina.Layout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Layout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout"
-        }
-      },
-      {
-        "HashCode": -1781117388,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Demopagina.Layout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Demopagina.Layout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 271519244,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "Layout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": 2064867309,
-        "Kind": "Components.ChildContent",
-        "Name": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
-        "AssemblyName": "KnutselenBlazor",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "KnutselenBlazor.Pages.Demopagina.Layout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Account.Logout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -838,39 +243,6 @@
         }
       },
       {
-        "HashCode": 98173566,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Account.Logout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Logout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Account.Logout"
-        }
-      },
-      {
-        "HashCode": 2146381765,
-        "Kind": "Components.Component",
-        "Name": "KnutselenBlazor.Pages.Account.Logout",
-        "AssemblyName": "KnutselenBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KnutselenBlazor.Pages.Account.Logout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KnutselenBlazor.Pages.Account.Logout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -879039543,
         "Kind": "Components.Component",
         "Name": "KnutselenBlazor.Pages.Account.Register",
@@ -904,6 +276,479 @@
         }
       },
       {
+        "HashCode": 2005183287,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Add",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Add"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Add"
+        }
+      },
+      {
+        "HashCode": -1511144634,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Add",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Users.Add"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Add",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 393463156,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Edit",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Edit"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Edit"
+        }
+      },
+      {
+        "HashCode": -1585071326,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Edit",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Users.Edit"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Edit",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1207997785,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout"
+        }
+      },
+      {
+        "HashCode": -20896798,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Users.Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -626710750,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Users.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1470018753,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Users.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "KnutselenBlazor.Pages.Users.Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1773609112,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Index",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Index"
+        }
+      },
+      {
+        "HashCode": 2001639195,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Users.Index",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Users.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Users.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1395671945,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.Layout"
+        }
+      },
+      {
+        "HashCode": -319247167,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Demopagina.Counter.Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.Layout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -313791917,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1093126586,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "KnutselenBlazor.Pages.Demopagina.Counter.Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -945390866,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.LandingspaginaDemo",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LandingspaginaDemo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.LandingspaginaDemo"
+        }
+      },
+      {
+        "HashCode": 431075441,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Counter.LandingspaginaDemo",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Demopagina.Counter.LandingspaginaDemo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Counter.LandingspaginaDemo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1952957145,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LandingspaginaDemo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo"
+        }
+      },
+      {
+        "HashCode": 1989393401,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.LandingspaginaDemo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 415126388,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout"
+        }
+      },
+      {
+        "HashCode": -1781117388,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Layout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Pages.Demopagina.Layout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 271519244,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 2064867309,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "KnutselenBlazor.Pages.Demopagina.Layout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Pages.Demopagina.Layout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 31667055,
         "Kind": "Components.Component",
         "Name": "KnutselenBlazor.Pages.Index",
@@ -933,6 +778,661 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KnutselenBlazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1478405425,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.Alert",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Alert"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Fade",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Fade"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.Alert"
+        }
+      },
+      {
+        "HashCode": 1032858660,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.Alert",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.Alert"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Fade",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Fade"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.Alert",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -388953973,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.SurveyPrompt",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1586800825,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.SurveyPrompt",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1517746105,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.NavMenu",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1939536083,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.NavMenu",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -302230478,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.DropdownListItem<TItem>",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DropdownListItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TItem",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TItem for the KnutselenBlazor.Shared.DropdownListItem<TItem> component.",
+            "Metadata": {
+              "Common.PropertyName": "TItem",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Item",
+            "TypeName": "TItem",
+            "Metadata": {
+              "Common.PropertyName": "Item",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<TItem>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.DropdownListItem<TItem>",
+          "Components.GenericTyped": "True"
+        }
+      },
+      {
+        "HashCode": 1850498223,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.DropdownListItem<TItem>",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.DropdownListItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TItem",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TItem for the KnutselenBlazor.Shared.DropdownListItem<TItem> component.",
+            "Metadata": {
+              "Common.PropertyName": "TItem",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Item",
+            "TypeName": "TItem",
+            "Metadata": {
+              "Common.PropertyName": "Item",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<TItem>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.DropdownListItem<TItem>",
+          "Components.GenericTyped": "True",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -273674414,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.DropdownListItem<TItem>.ChildContent",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "DropdownListItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.DropdownListItem<TItem>.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1691989767,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.DropdownListItem<TItem>.ChildContent",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "KnutselenBlazor.Shared.DropdownListItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'ChildContent' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.DropdownListItem<TItem>.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 357896012,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Dropdown"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TItem",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TItem for the KnutselenBlazor.Shared.Dropdown<TItem> component.",
+            "Metadata": {
+              "Common.PropertyName": "TItem",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InitialTip",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "InitialTip",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSelected",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TItem>",
+            "Metadata": {
+              "Common.PropertyName": "OnSelected",
+              "Components.EventCallback": "True",
+              "Components.GenericTyped": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>",
+          "Components.GenericTyped": "True"
+        }
+      },
+      {
+        "HashCode": -987250224,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.Dropdown"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TItem",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TItem for the KnutselenBlazor.Shared.Dropdown<TItem> component.",
+            "Metadata": {
+              "Common.PropertyName": "TItem",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InitialTip",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "InitialTip",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSelected",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<TItem>",
+            "Metadata": {
+              "Common.PropertyName": "OnSelected",
+              "Components.EventCallback": "True",
+              "Components.GenericTyped": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>",
+          "Components.GenericTyped": "True",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1269270121,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>.InitialTip",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InitialTip",
+            "ParentTag": "Dropdown"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>.InitialTip",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1950027104,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>.InitialTip",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InitialTip",
+            "ParentTag": "KnutselenBlazor.Shared.Dropdown"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>.InitialTip",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1860271882,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>.ChildContent",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Dropdown"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -245806972,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.Dropdown<TItem>.ChildContent",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "KnutselenBlazor.Shared.Dropdown"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.Dropdown<TItem>.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -346331491,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.MainLayout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -803334727,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.Shared.MainLayout",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1372981926,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.MainLayout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 473232584,
+        "Kind": "Components.ChildContent",
+        "Name": "KnutselenBlazor.Shared.MainLayout.Body",
+        "AssemblyName": "KnutselenBlazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "KnutselenBlazor.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "KnutselenBlazor.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -272285759,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.App",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.App"
+        }
+      },
+      {
+        "HashCode": 1932235702,
+        "Kind": "Components.Component",
+        "Name": "KnutselenBlazor.App",
+        "AssemblyName": "KnutselenBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KnutselenBlazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KnutselenBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13629,6 +14129,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Shared\\DropdownListItem.razor",
+      "TargetPath": "Shared\\DropdownListItem.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Pages\\Users\\_Imports.razor",
       "TargetPath": "Pages\\Users\\_Imports.razor",
       "FileKind": "componentImport"
@@ -13689,8 +14194,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Pages\\Demopagina\\Counter\\LandingspaginaDemo.razor",
+      "TargetPath": "Pages\\Demopagina\\Counter\\LandingspaginaDemo.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Pages\\Demopagina\\Counter\\Layout.razor",
+      "TargetPath": "Pages\\Demopagina\\Counter\\Layout.razor",
       "FileKind": "component"
     },
     {
@@ -13716,6 +14231,11 @@
     {
       "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Pages\\Account\\Login.razor",
       "TargetPath": "Pages\\Account\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\Blazor\\KnutselenBlazor\\Shared\\Dropdown.razor",
+      "TargetPath": "Shared\\Dropdown.razor",
       "FileKind": "component"
     }
   ],

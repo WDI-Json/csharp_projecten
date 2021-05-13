@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor.Pages.Demopagina
+namespace KnutselenBlazor.Shared
 {
     #line hidden
     using System;
@@ -76,27 +76,40 @@ using Microsoft.AspNetCore.Components.Routing;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
-using Microsoft.AspNetCore.Components.Web;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 11 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\_Imports.razor"
 using System.Web;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina")]
-    public partial class LandingspaginaDemo : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 1 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\DropdownListItem.razor"
+using Microsoft.AspNetCore.Components.Web;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class DropdownListItem<TItem> : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 5 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\DropdownListItem.razor"
+       
+    [CascadingParameter(Name="Dropdown")]
+    public Dropdown<TItem> Dropdown {get;set;}
+
+    [Parameter]
+    public TItem Item{get;set;}
+    [Parameter]
+    public RenderFragment<TItem> ChildContent {get;set;}
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

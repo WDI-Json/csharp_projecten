@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace KnutselenBlazor.Pages.Demopagina
+namespace KnutselenBlazor.Pages.Demopagina.Counter
 {
     #line hidden
     using System;
@@ -89,8 +89,8 @@ using System.Web;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Demopagina")]
-    public partial class LandingspaginaDemo : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.LayoutAttribute(typeof(MainLayout))]
+    public partial class Layout : LayoutComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
