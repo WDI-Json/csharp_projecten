@@ -100,20 +100,20 @@ using System.Web;
 #line 15 "C:\Users\Wouter\Documents\GitHub\csharp_projecten\Blazor\KnutselenBlazor\Shared\Dropdown.razor"
        
     [Parameter]
-    public RenderFragment InitialTip{get;set;}
+    public RenderFragment InitialTip { get; set; }
     [Parameter]
-    public RenderFragment ChildContent{get;set;}
+    public RenderFragment ChildContent { get; set; }
     [Parameter]
-    public EventCallback<TItem> OnSelected {get;set;}
+    public EventCallback<TItem> OnSelected { get; set; }
 
     private bool show = false;
-    private RenderFragment Tip ;
+    private RenderFragment Tip;
 
-    protected override void OnInitialized(){ this.Tip = InitialTip; }
+    protected override void OnInitialized() { this.Tip = InitialTip; }
     public async Task HandleSelect(TItem item, RenderFragment<TItem> contentFragment)
     {
-        this.Tip= contentFragment.Invoke(item);
-        this.show=false;
+        this.Tip = contentFragment.Invoke(item);
+        this.show = false;
         StateHasChanged();
         await this.OnSelected.InvokeAsync(item);
     }
