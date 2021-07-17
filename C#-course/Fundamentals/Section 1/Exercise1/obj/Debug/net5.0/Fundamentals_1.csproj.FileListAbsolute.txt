@@ -1,0 +1,16 @@
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.exe
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.deps.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.runtimeconfig.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.runtimeconfig.dev.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\ref\Fundamentals_1.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\bin\Debug\net5.0\Fundamentals_1.pdb
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.csprojAssemblyReference.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.AssemblyInfoInputs.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.AssemblyInfo.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.csproj.CoreCompileInputs.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\ref\Fundamentals_1.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.pdb
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\C#-course\Fundamentals\Fundamentals_1\obj\Debug\net5.0\Fundamentals_1.genruntimeconfig.cache
