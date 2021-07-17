@@ -1,0 +1,15 @@
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\AppOwnsDataShared.deps.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\AppOwnsDataShared.runtimeconfig.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\AppOwnsDataShared.runtimeconfig.dev.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\AppOwnsDataShared.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\ref\AppOwnsDataShared.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\bin\Debug\net5.0\AppOwnsDataShared.pdb
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.csprojAssemblyReference.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.AssemblyInfoInputs.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.AssemblyInfo.cs
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.csproj.CoreCompileInputs.cache
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\ref\AppOwnsDataShared.dll
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.pdb
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataShared\obj\Debug\net5.0\AppOwnsDataShared.genruntimeconfig.cache
