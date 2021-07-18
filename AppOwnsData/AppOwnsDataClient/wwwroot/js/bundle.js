@@ -660,7 +660,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
     }
-    AppSettings.clientId = "f99977a5-f476-4a39-bfc7-9cf2f4bd1b9e";
+    AppSettings.clientId = "d1ab14ec-df06-44ba-8451-fd32244e49a2";
     AppSettings.tenant = "common";
     // this is WebAPI URL for local development
     AppSettings.apiRoot = "https://localhost:44302/api/";

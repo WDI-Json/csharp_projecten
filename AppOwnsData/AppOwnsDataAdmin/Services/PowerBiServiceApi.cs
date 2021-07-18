@@ -117,8 +117,13 @@ namespace AppOwnsDataAdmin.Services {
           GroupUserAccessRight = "Admin"
         });
       }
+      /* need to fix to create different dashboard(s) in te future. 
+      Opletten: 
+                - Andere DB's straks
+                - Lijst met de dashboard templates? (start met financieel geleidelijk uitbreiden enz)
+                - Hoe om te gaan met maatwerkoplossingen van klanten?
 
-      // upload sample PBIX file #1
+       upload sample PBIX file #1 */
       string pbixPath = this.Env.WebRootPath + @"/PBIX/SalesReportTemplate.pbix";
       string importName = "Sales";
       PublishPBIX(pbiClient, workspace.Id, pbixPath, importName);

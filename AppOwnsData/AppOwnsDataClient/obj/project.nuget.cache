@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rsDq8Hy73uvp5EZQ3Qmf4glt6IzS1SO4LImTT1ef1G23oSv9ZY/OKhLp3eu89uAWHA2ZFhjaJQfEDX7On5DTbg==",
+  "dgSpecHash": "gYylCnJI7Alc631bewjKq2kKtzE+cF6wup4hMzXL8jKyd/24TrhEzK4z9WF+iSRQcQ9/h0hJOl/mkLyBOa6kWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wouter\\Documents\\GitHub\\csharp_projecten\\AppOwnsData\\AppOwnsDataClient\\AppOwnsDataClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Wouter\\.nuget\\packages\\microsoft.typescript.msbuild\\4.3.5\\microsoft.typescript.msbuild.4.3.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,7 +10,6 @@ C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\bin\Debug\net5.0\AppOwnsDataClient.pdb
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\bin\Debug\net5.0\AppOwnsDataClient.Views.dll
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\bin\Debug\net5.0\AppOwnsDataClient.Views.pdb
-C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.csprojAssemblyReference.cache
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.AssemblyInfoInputs.cache
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.AssemblyInfo.cs
@@ -34,3 +33,4 @@ C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.genruntimeconfig.cache
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.csproj.CopyComplete
 C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\bin\Debug\net5.0\package-lock.json
+C:\Users\Wouter\Documents\GitHub\csharp_projecten\AppOwnsData\AppOwnsDataClient\obj\Debug\net5.0\AppOwnsDataClient.csprojAssemblyReference.cache
