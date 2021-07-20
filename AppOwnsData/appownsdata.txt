@@ -1,0 +1,58 @@
+App-Owns-Data Service App
+-------------------------------------------------
+client-id 
+0c5ab9e1-400e-4829-808b-1b38ba37b7ca
+
+tenant-id 
+699c8e91-efc9-4bc8-928f-f7d17274db2d
+
+Client secret
+.-djV-Mx0kuLi4K7.387GI-nBB_Y1O3O1g
+
+App-Owns-Data Client App
+Client-id
+d1ab14ec-df06-44ba-8451-fd32244e49a2
+
+Werkte nadat ik in Azure de volgende settings toepaste:
+Bij Client APP
+- 	"allowPublicClient": true
+- 	"type": "Spa"
+BIj Service APP
+- 	"allowPublicClient": true
+- 	"type": "Web"
+
+
+#-------------------------------------------------------------------------------#
+#
+#    AppOwnsDataAdmin: ASP.NET MVC Web Application built using .NET 5
+	Goal: people who work for hostingcompany who's doing the embedding. To create tenants etc.
+#    AppOwnsClient: Single page application built using HTML, CSS and Typescript
+	Goal: Single page application that is built for our customer. Needs to use the AppOwnsDataWebApi. Which is an ASP.net api which basically will be secured using AzureAD.
+#    AppOwnsDataShared: Class library project used to generate AppOwnsDataDB
+	Goal: class library project that contains entity framework code to create appownsdatadb. 
+	Also contains C#-code like wrapper class for when DataAdmin or WebApi code needs to access the database they go through code that is maintained in the AppOwnsDataShared Project.
+#    AppOwnsDataWebApi: ASP.NET Web API which provides embedding data to AppOwnsDataClient
+#-------------------------------------------------------------------------------#
+
+Advies microsoft vervolg:
+- Andere authenticatie provider --> niet nodig aangezien wij ook AzureAd gebruiken. 
+- Een uitgebreider toestemmingsmodel --> Erg simpel momenteel. 
+	-> mogelijk maken koppelen gebruiker aan meerdere tenants
+	-> permissies niet alleen op workspace niveau maar op rapportniveau of datasetniveau. 
+	   Dan moet je de database uitbreiden door bijvoorbeeld meer tabellen + de code die daarop leunt zal uitgebreid moeten worden
+	-> Integratie met row-level security (RLS), hier zou een integratie met het autorisatiemodel voor moeten komen wanneer nodig.
+	   Voorbeeld bevat geen enkele vorm van RLS. 
+	-> Herontwerp waarbij AppOwnsDataClient gebruik maakt van React.js of Angular, beschouwd als meer sophisticated.
+	-> Verbetering op gebied van schaling. Er is nu een issue waarbij meer dan 1000 tenants niet ondersteund worden.
+	   Mochten we boven dit aantal komen dan zou je hiervoor een re-design moeten toepassen met bijvoorbeeld meerdere service-principals
+
+Na gebruik van de AppOwnsData starterkit en je wilt dealen met het schalingsprobleem, dan heeft MS op github een repo met de naam Tenantmanagement. 
+Dit wordt beschouwd als de volgende stap. Bedoeld voor partijen die hier een speciale oplossing zoeken. 
+
+Voorlopige toepassing?
+- HR dashboard? 
+- Verhuurmodel. Waarbij we klanten de optie geven beperkt te kunnen customizen.
+- Splitsing tussen huurmodel - Lezen & huurmodel + create-rechten (beperkt). 
+	-> waarbij de gebruiker dus op basis van zijn huidige set aparte views kan maken met bijvoorbeeld een andere grafiek soort of kleurenschema dan gewenst. 
+
+
