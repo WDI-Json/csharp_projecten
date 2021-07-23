@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AppOwnsDataAdmin",
+    "\\AppOwnsDataAdmin\\wwwroot",
+    "\\AppOwnsDataAdmin\\wwwroot\\lib",
+    "\\AppOwnsDataAdmin\\wwwroot\\lib\\jquery-validation",
+    "\\AppOwnsDataAdmin\\wwwroot\\lib\\jquery-validation\\dist",
+    "\\AppOwnsDataClient",
+    "\\AppOwnsDataClient\\Views",
+    "\\AppOwnsDataClient\\Views\\Home",
+    "\\AppOwnsDataClient\\wwwroot",
+    "\\AppOwnsDataClient\\wwwroot\\lib",
+    "\\AppOwnsDataClient\\wwwroot\\lib\\bootstrap"
   ],
   "PreviewInSolutionExplorer": false
 }
