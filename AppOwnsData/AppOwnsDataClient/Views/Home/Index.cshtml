@@ -2,36 +2,39 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>App-Owns-Data Client</title>
-  <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
-  <link href="~/css/app.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App-Owns-Data Client</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/css/app.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="flex">
         <header id="top-banner">
             <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light bg-white border-bottom box-shadow mb-3">
-                <div class="container">
-                    <a class="navbar-brand">App-Owns-Data Client</a>
+                <div class="container-fluid">
+                    <span class="navbar-brand d-flex align-items-center">
+                        <img src="~/images/logo.svg" alt="deJongenLaan" width="200" height="40" />
+                        <span class="ml-4 d-none d-md-block">Power Bi Client</span>
+                    </span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse d-dm-inline-flex flex-md-row-reverse">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="javascript:void(0)" class="nav-link"><span id="user-greeting"></span></a></li>
-                            <li class="nav-item"><a id="login" href="javascript:void(0)" class="nav-link">Login</a></li>
-                            <li class="nav-item"><a id="logout" href="javascript:void(0)" class="nav-link">Logout</a></li>
+                            <li class="nav-item"><span class="nav-link" id="user-greeting"></span></li>
+                            <li class="nav-item"><button type="button" id="login" class="btn btn-block btn-link text-left nav-link"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button></li>
+                            <li class="nav-item"><button type="button" id="logout" class="btn btn-block btn-link text-left nav-link"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</button></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <main class="container">
+        <main class="container-fluid">
             <div id="main-body" class="container-fluid">
                 <div id="view-anonymous" class="row">
                     <div class="jumbotron" style="width: 100%;">
