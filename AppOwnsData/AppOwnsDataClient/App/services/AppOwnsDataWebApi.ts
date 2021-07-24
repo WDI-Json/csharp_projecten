@@ -13,7 +13,7 @@ export default class AppOwnsDataWebApi {
     user.LoginId = LoginId;
     user.UserName = UserName;
 
-    console.log("Process user login", user);
+    console.log("Verwerken user login", user);
 
     var accessToken: string = await SpaAuthService.getAccessToken();
     var postData: string = JSON.stringify(user);
