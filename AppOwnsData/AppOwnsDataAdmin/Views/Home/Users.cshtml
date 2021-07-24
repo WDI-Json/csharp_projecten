@@ -5,7 +5,7 @@
 <div class="toolbar">
   <a id="create-workspace-button" class="btn btn-primary" asp-action="CreateUser">
     <i class="fa fa-user-plus"></i>
-    Create New User
+    Maak een nieuwe gebruiker
   </a>
 </div>
 
@@ -13,14 +13,14 @@
   <thead class="thead-dark">
     <tr>
       <th>Login ID</th>
-      <th>User Name</th>
-      <th>Last Login</th>
-      <th>Tenant</th>
-      <th>Can Edit</th>
-      <th>Can Create</th>
-      <th style="text-align:center;">View</th>
-      <th style="text-align:center;">Edit</th>
-      <th style="text-align:center;">Delete</th>
+      <th>Gebruikersnaam</th>
+      <th>Laatste Login</th>
+      <th>Klant</th>
+      <th>Wijzigen</th>
+      <th>Aanmaken</th>
+      <th style="text-align:center;">Bekijk</th>
+      <th style="text-align:center;">Aanpassen</th>
+      <th style="text-align:center;">Verwijderen</th>
     </tr>
   </thead>
   @foreach (var user in Model) {

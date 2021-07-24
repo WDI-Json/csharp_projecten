@@ -91,8 +91,8 @@ export default class App {
   private static refreshUi = () => {
 
     if (SpaAuthService.userIsAuthenticated) {
-      App.userGreeting.text("Welcome " + SpaAuthService.userDisplayName);
-      App.userGreeting.prop('title', 'Email: ' + SpaAuthService.userName);
+      App.userGreeting.text("Welkom " + SpaAuthService.userDisplayName);
+      App.userGreeting.prop('titel', 'Email: ' + SpaAuthService.userName);
       App.login.hide()
       App.logout.show();
       App.viewAnonymous.hide();
@@ -107,7 +107,7 @@ export default class App {
   }
 
   private static onAuthenticationCompleted = async () => {
-    App.loadingSpinnerMessage.text("Processing user login...");
+    App.loadingSpinnerMessage.text("Verwerken logingegevens...");
     App.loadingSpinner.show(250);
     App.viewAnonymous.hide();
     await AppOwnsDataWebApi.LoginUser(SpaAuthService.userName, SpaAuthService.userDisplayName);
@@ -118,7 +118,7 @@ export default class App {
 
   private static initializeAppData = async () => {
 
-    App.loadingSpinnerMessage.text("Getting report embedding data...");
+    App.loadingSpinnerMessage.text("Ophalen embedding data...");
     App.loadingSpinner.show();
     App.viewAnonymous.hide();
 
@@ -131,7 +131,7 @@ export default class App {
       App.viewUnassigned.show(500);
     }
     else {
-      console.log("Loading View Model", App.viewModel);
+      console.log("Laden View Model", App.viewModel);
       App.loadViewModel(App.viewModel);
     }
   }
@@ -149,7 +149,7 @@ export default class App {
 
     if (viewModel.reports.length == 0) {
       App.reportsList.append($("<li>")
-        .text("no reports in workspace")
+        .text("Geen rapporten in workspace")
         .addClass("no-content"));
     }
     else {

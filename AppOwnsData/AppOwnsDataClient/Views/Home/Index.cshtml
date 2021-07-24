@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App-Owns-Data Client</title>
+    <title>Power BI Web Client</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="~/css/app.css" rel="stylesheet" />
@@ -38,11 +38,12 @@
             <div id="main-body" class="container-fluid">
                 <div id="view-anonymous" class="row">
                     <div class="jumbotron" style="width: 100%;">
-                        <h1>Welcome to the App-Owns-Data Starter Kit</h1>
+                        <h1>Welkom bij de Jong en Laan PowerBi Client</h1>
                         <div>
-                            This sample application has been implemented as a Single Page Application (SPA) using HTML, CSS and TypeScript.
-                            After authenticating with Azure AD, the app is able to make authenticated calls the custom web API named AppOwnsDataWebApi to get the data and embed tokens
-                            required to embed reports in the browser. Click on the login link in the upper right to get started.
+                            Dit is een Single Page Applicatie (SPA) gebouwd middels HTML, CSS en TypeScript. Na authenticatie met Azure AD zal de app beschermde calls maken naar een custom-made webAPI.
+                            De AppOwnsDataWeb Api zorgt voor de data en embed tokens zodat het template dashboard zichtbaar wordt voor de gebruiker in de browser.
+
+                            Klik op <strong>inloggen</strong> rechtsbovenin om te beginnen.
                         </div>
                     </div>
                 </div>
@@ -50,16 +51,15 @@
                     <div id="loading-spinner-container" class="justify-content-center">
                         <div id="spinner-message"></div>
                         <div class="spinner-border" role="status">
-                            <span class="sr-only">Loading...</span>
+                            <span class="sr-only">Laden van data...</span>
                         </div>
                     </div>
                 </div>
                 <div id="view-unassigned" style="display: none;">
                     <div class="jumbotron" style="width: 100%;">
-                        <h1>Thanks for logging in</h1>
+                        <h1>Bedankt voor het inloggen</h1>
                         <div>
-                            You user account has no assigned tenant. Once your user account has been assigned to a tenant,
-                            you will be able to use this application and interact with embedded report from Power BI.
+                            Je gebruikersaccount heeft geen entiteit toegewezen.
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             <div id="embed-toolbar" role="toolbar">
                                 <span id="breadcrumb">&nbsp;</span>
                                 <button type="button" id="full-screen" class="btn btn-md "><i class="fa fa-expand"></i>Full Screen</button>
-                                <button type="button" id="toggle-edit" class="btn btn-md "><i class="fa fa-edit"></i>Toggle Edit Mode</button>
+                                <button type="button" id="toggle-edit" class="btn btn-md "><i class="fa fa-edit"></i>Aanpassen</button>
                             </div>
                         </div>
                     </div>
@@ -78,14 +78,14 @@
                         <div id="left-nav" class="col-md-2">
                             <div>
                                 <div class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".reports-collapse">
-                                    View Report
+                                    Bekijk Report
                                 </div>
                                 <div id="reports-menu" class="navbar-collapse reports-collapse">
                                     <ul id="reports-list" class="nav navbar-nav"></ul>
                                 </div>
                                 <div id="datasets-list-container">
                                     <div class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".datasets-collapse">
-                                        Create Report
+                                        Bouw Report
                                     </div>
                                     <div id="datasets-menu" class="navbar-collapse datasets-collapse">
                                         <ul id="datasets-list" class="nav navbar-nav"></ul>

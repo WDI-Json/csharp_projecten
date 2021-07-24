@@ -2,20 +2,20 @@
 
 @if (User.Identity.IsAuthenticated) {
   <div class="jumbotron">
-    <h1>Welcome @User.FindFirst("name").Value</h1>
-    <p>You have now logged into this application. You can create new Azure AD identities and Power BI tenants.</p>
+    <h1>Welkom @User.FindFirst("name").Value</h1>
+    <p>Je bent succesvol ingelogd! Je kan nu nieuwe Azure AD identiteiten aanmaken en Power BI klanten.</p>
   </div>
 }
 else {
   <div class="jumbotron">
 
-    <h1>Welcome to the App-Owns-Data Starter Kit</h1>
+    <h1>Welkom bij de Power BI beheerdersapplicatie.</h1>
 
-    <p>This application was created to demonstrate managing a multitenant environment with 
-    Power BI embedding. This application automates the provisioning of Power BI workspaces and allows an adminstrators
-    to assign permissions to users .</p>
+    <p>Deze applicatie is gebouwd als demo om te laten zien hoe we meerdere klanten met hetzelfde dashboard kunnen beheren. 
+      Daarnaast een uitgelegen kans om Power BI embedding te verkennen voor IT-advies. Deze applicatie zal demonstreren dashboards te embedden voor verschillende klanten
+      waarbij Power BI workspaces worden aangemaakt. Beheerders kunnen deze workspaces geautomatiseerd aanmaken en toestemmingen geven aan gebruikers.</p>
     
-    <p>Click the <strong>sign in</strong> link in the upper right to get started.</p>
+    <p>Klik op <strong>Inloggen</strong> rechtsbovenin om te starten.</p>
 
   </div>
 }

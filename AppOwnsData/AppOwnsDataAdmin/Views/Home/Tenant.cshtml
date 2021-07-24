@@ -2,13 +2,13 @@
 
 <h2>
   <span><a class="btn btn-sm h2-backarrow" asp-action="Tenants"><i class="fa fa-backward"></i></a></span>
-  <span>Tenant Details</span>
+  <span>Klant Details</span>
 </h2>
 
 <form class="form-horizontal" role="form">
   <fieldset>
     <div class="form-group row">
-      <label for="Name" class="col-sm-3 col-form-label">Name</label>
+      <label for="Name" class="col-sm-3 col-form-label">Naam</label>
       <div class="col-sm-9">
         <input class="form-control " id="Name" name="Name" readonly value="@Model.Name">
       </div>
@@ -32,19 +32,19 @@
       </div>
     </div>
     <div class="form-group row">
-      <label for="DatabaseName" class="col-sm-3 col-form-label">Database Name</label>
+      <label for="DatabaseName" class="col-sm-3 col-form-label">Database Naam</label>
       <div class="col-sm-9">
         <input class="form-control" id="DatabaseName" name="DatabaseName" readonly="readonly" value="@Model.DatabaseName">
       </div>
     </div>
     <div class="form-group row">
-      <label for="ClientSecret" class="col-sm-3 col-form-label">Database User Name</label>
+      <label for="ClientSecret" class="col-sm-3 col-form-label">Database Gebruikersnaam</label>
       <div class="col-sm-9">
         <input class="form-control" id="DatabaseUserName" name="DatabaseUserName" readonly="readonly" value="@Model.DatabaseUserName">
       </div>
     </div>
     <div class="form-group row">
-      <label for="DatabaseUserPassword" class="col-sm-3 col-form-label">Database User Password</label>
+      <label for="DatabaseUserPassword" class="col-sm-3 col-form-label">Database Gebruikerswachtwoord</label>
       <div class="col-sm-9">
         <input class="form-control" id="DatabaseUserPassword" name="DatabaseUserPassword" readonly="readonly" value="@Model.DatabaseUserPassword" type="password" >
       </div>
@@ -56,12 +56,12 @@
 <div class="row">
 
   <div class="col-6">
-    <h4>Members</h4>
+    <h4>Ledeninformatie</h4>
     <table class="table table-sm table-bordered table-striped">
       <thead class="thead-dark" >
         <tr>
           <th>Member</th>
-          <th>Permissions</th>
+          <th>Toestemmingen</th>
           <th>Member Type</th>
         </tr>
       </thead>
@@ -80,8 +80,8 @@
     <table class="table table-sm table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
-          <th>Name</th>
-          <th>Is Refreshable</th>
+          <th>Naam</th>
+          <th>Verversbaar</th>
         </tr>
       </thead>
       @foreach (var dataset in Model.Datasets) {
@@ -94,12 +94,12 @@
   </div>
   
   <div class="col-3">
-    <h4>Report</h4>
+    <h4>Rapport</h4>
     <table class="table table-sm table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
-          <th>Name</th>
-          <th>Report Type</th>
+          <th>Naam</th>
+          <th>Type</th>
         </tr>
       </thead>
       @foreach (var report in Model.Reports) {
