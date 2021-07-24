@@ -1,23 +1,23 @@
 @model AppOwnsDataAdmin.Controllers.HomeController.OnboardTenantModel
 
-<h2 id="page-title">Onboard New Tenant</h2>
+<h2 id="page-title">Onboarden Nieuwe klant</h2>
 
 <form id="new-tenant" method="post" class="form-horizontal">
   <fieldset>
     <div class="form-group row">
-      <label for="TenantName" class="col-sm-3 col-form-label">Tenant Name</label>
+      <label for="TenantName" class="col-sm-3 col-form-label">Klantnaam</label>
       <div class="col-sm-9">
-        <input class="form-control" id="TenantName" name="TenantName" placeholder="Enter tenant name" value="@Model.TenantName">
+        <input class="form-control" id="TenantName" name="TenantName" placeholder="Vul een klantnaam in" value="@Model.TenantName">
       </div>
     </div>
     <div class="form-group row">
-      <label for="DatabaseServerName" class="col-sm-3 col-form-label">Database Server Name</label>
+      <label for="DatabaseServerName" class="col-sm-3 col-form-label">Database Server Naam</label>
       <div class="col-sm-9">
-        <input class="form-control" id="DatabaseServer" name="DatabaseServer" placeholder="Enter database server name" value="devcamp.database.windows.net" />
+        <input class="form-control" id="DatabaseServer" name="DatabaseServer" placeholder="Vul een servernaam in" value="devcamp.database.windows.net" />
       </div>
     </div>
     <div class="form-group row">
-      <label for="DatabaseName" class="col-sm-3 col-form-label">Database Name</label>
+      <label for="DatabaseName" class="col-sm-3 col-form-label">Database Naam</label>
       <div class="col-sm-9">
         <select class="form-control" id="DatabaseName" name="DatabaseName" asp-items="Model.DatabaseOptions">
           <option selected="selected" value="@Model.SuggestedDatabase">@Model.SuggestedDatabase</option>
@@ -25,21 +25,21 @@
       </div>
     </div>
     <div class="form-group row">
-      <label for="SqlUserName" class="col-sm-3 col-form-label">SQL Server User Name</label>
+      <label for="SqlUserName" class="col-sm-3 col-form-label">SQL Server Gebruikersnaam</label>
       <div class="col-sm-9">
-        <input class="form-control" id="DatabaseUserName" name="DatabaseUserName" placeholder="Enter Azure SQL User Name" value="CptStudent" />
+        <input class="form-control" id="DatabaseUserName" name="DatabaseUserName" placeholder="Vul een Azure SQL gebruikersnaam in" value="CptStudent" />
       </div>
     </div>
     <div class="form-group row">
-      <label for="SqlUserPassword" class="col-sm-3 col-form-label">SQL Server User Password</label>
+        <label for="SqlUserPassword" class="col-sm-3 col-form-label">SQL Server gebruikerswachtwoord</label>
       <div class="col-sm-9">
-        <input class="form-control" id="DatabaseUserPassword" name="DatabaseUserPassword" placeholder="Enter Azure SQL User Password" value="pass@word1" type="password" />
+        <input class="form-control" id="DatabaseUserPassword" name="DatabaseUserPassword" placeholder="Vul een Azure SQL gebruikerswachtwoord in" value="pass@word1" type="password" />
       </div>
     </div>
     <div class="form-group row button-row">
       <button id="create-tenant-button" type="submit" class="btn btn-primary">
         <i class="fa fa-user-plus"></i>
-        Create New Tenant
+        Voeg nieuwe klant toe
       </button>
     </div>
   </fieldset>
@@ -47,7 +47,7 @@
 
 <div class="loading" style="display:none;">
   <div class="loading-image">
-    <img src="~/images/loading.gif" />
+    <img src="~/images/loading_pbi.gif" />
   </div>
 </div>
 
@@ -57,7 +57,7 @@
 
       $("#new-tenant").submit(function () {
         $("#new-tenant").hide();
-        $("#page-title").text("Onboarding New Tenant...");
+        $("#page-title").text("Toevoegen nieuwe klant...");
         $(".loading").show(100);
       });
 

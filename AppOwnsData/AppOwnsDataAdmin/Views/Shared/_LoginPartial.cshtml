@@ -4,16 +4,16 @@
     @if (User.Identity.IsAuthenticated)
     {
         <li class="nav-item">
-            <span id="user-welcome" class="navbar-text text-dark">Welcome @User.FindFirst("name").Value</span>
+            <span id="user-welcome" class="navbar-text text-dark">Welkom @User.FindFirst("name").Value</span>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign out</a>
+            <a class="nav-link text-dark" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut"><i class="fa fa-sign-in" aria-hidden="true"></i> Uitloggen</a>
         </li>
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign in</a>
+            <a class="nav-link text-dark" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn"><i class="fa fa-sign-out" aria-hidden="true"></i> Inloggen</a>
         </li>
     }
 </ul>
